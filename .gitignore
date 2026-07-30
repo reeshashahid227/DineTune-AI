@@ -1,23 +1,39 @@
+# Virtual environment
 venv/
-__pycache__/
-*.pyc
+.venv/
 
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables / API keys
+.env
+.env.*
+
+# Jupyter
 .ipynb_checkpoints/
 
-.env
+# Medical datasets - keep local
+data/raw/
+data/processed/
 
+# Trained model / QLoRA adapter - keep local
 models/
-
+*.bin
+*.pt
+*.pth
 *.safetensors
 
-*.bin
+# Logs
+*.log
 
-*.pt
+# Streamlit secrets
+.streamlit/secrets.toml
 
-*.pth
-
-.DS_Store
-
+# IDE
+.vscode/
 .idea/
 
-.vscode/
+# OS files
+.DS_Store
+Thumbs.db
