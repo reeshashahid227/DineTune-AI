@@ -1,0 +1,16 @@
+torch
+transformers
+datasets
+accelerate
+peft
+trl
+sentencepiece
+numpy
+pandas
+matplotlib
+streamlit
+python-dotenv
+tqdm
+scikit-learn
+jupyter
+huggingface_hub
