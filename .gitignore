@@ -37,3 +37,14 @@ models/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Large model files
+base_model/
+model/
+medical-qlora-adapter/
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
